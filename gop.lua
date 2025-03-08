@@ -1,12 +1,12 @@
 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/deobiet98/Scriptv2/refs/heads/main/v2.lua")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/deobiet98/V3/refs/heads/main/gop.lua")))()
 
        local Window = MakeWindow({
          Hub = {
-         Title = "TDAT",
-         Animation = "2001"
+         Title = "TIẾN ĐẠT DZ",
+         Animation = "0000"
          },
-        Key = {
+        Key = {"TDAT"}
         KeySystem = false,
         Title = "Key System",
         Description = "",
@@ -32,18 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/deobiet98/Scriptv2/r
       
 ------ Tab
      local Tab1o = MakeTab({Name = "MAIN"})
-     local Tab2o = MakeTab({Name = "a"})
-     local Tab3o = MakeTab({Name = "a"})
-     
-     
--------TOGGLE 
-
-     Toggle = AddToggle(Tab1o, {
-      Name = "a",
-      Default = false,
-      Callback = function()
-     end
-    })
+-------TOGGLE
     
 ------- BUTTON
     
@@ -139,7 +128,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/
 
   Dropdown = AddDropdown(Tab1o, {
      Name = "a",
-     Options = {"fix lag", "script", "gop", "Redz"},
+     Options = {"melee"},
      Default = "Melee",
      Callback = function()
      end
